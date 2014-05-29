@@ -10,6 +10,8 @@ _projectVersion( 0 1 0 ZEROPAD
 
 _useBinLibStructure()
 
-_doxygen()
+_doxygen(
+    DOXYFILE_SOURCE ${PROJECT_SOURCE_DIR}/cmakesys/templates/doxyfile.in
+)
 
 add_subdirectory( src )
