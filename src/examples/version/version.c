@@ -1,8 +1,9 @@
-#include "version.c"
+#include "version.h"
+#include <stdio.h>
 
 
 int main( int argc, char** argv )
 {
-    fprint( "%s", CMAKESYS_VERSION );
+    printf( "%s\n", CMAKESYS_VERSION_STRING );
     return( 0 );
 }
