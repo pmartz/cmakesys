@@ -162,7 +162,7 @@ macro( _doxygen )
             if( EXISTS ${PROJECT_SOURCE_DIR}/doc/doxyfile.in )
                 set( _doxyfileSource ${PROJECT_SOURCE_DIR}/doc/doxyfile.in )
             else()
-                message( WARNING "_doxygen: Can't file doxyfile source." )
+                message( WARNING "_doxygen: Can't find doxyfile source." )
             endif()
         endif()
 
