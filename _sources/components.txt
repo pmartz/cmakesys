@@ -1,6 +1,14 @@
+.. _examples: http://pmartz.github.io/cmakesys/examples
+
 Components
 ==========
-TODO: Summarize the components briefly here.
+This section provides brief overviews of the main components of CMakeSys.
+You can browse the examples_ for more in-depth demonstations.
+
+.. note::
+
+   This is a note section! You can use these sections to write interesting
+   bits of information that Sphinx will put into its own section.
 
 Project Name
 ------------
@@ -9,8 +17,11 @@ Project Name
 
 Project Config
 --------------
-- Make custom project setting available in a Config.h file.E.g.: Add a cpp define to indicate the project was built with certain optional dependencies, or for certain architectures, or other custom settings.
-  - Add a cpp define to indicate the project was built with certain optional dependencies, or for certain architectures, or other custom settings.
+- Make custom project setting available in a Config.h file.E.g.: Add a cpp
+  define to indicate the project was built with certain optional dependencies, or
+  for certain architectures, or other custom settings.
+- Add a cpp define to indicate the project was built with certain optional
+  dependencies, or for certain architectures, or other custom settings.
 
 Version Vumber
 --------------
