@@ -1,3 +1,4 @@
 bld
 build
 src/examples/version/version.h
+doc/.build/html
