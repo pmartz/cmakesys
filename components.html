@@ -1,0 +1,274 @@
+
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Components &mdash; Sobek 0.2.0 documentation</title>
+  
+
+  
+  
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  
+  
+
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:'',
+        VERSION:'0.2.0',
+        COLLAPSE_INDEX:false,
+        FILE_SUFFIX:'.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+    <script type="text/javascript">
+        jQuery(function () {
+            SphinxRtdTheme.StickyNav.enable();
+        });
+    </script>
+  
+
+  
+    <link rel="top" title="Sobek 0.2.0 documentation" href="index.html"/>
+        <link rel="next" title="Examples" href="examples.html"/>
+        <link rel="prev" title="Philosophy" href="philosophy.html"/> 
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        <a href="index.html" class="fa fa-home"> Sobek</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        
+        
+            <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="philosophy.html">Philosophy</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">Components</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#project-name">Project Name</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#project-config">Project Config</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#version-vumber">Version Vumber</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#doxygen-sphinx">Doxygen/Sphinx</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#platform-specific-controls">Platform-specific Controls</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#dependencies">Dependencies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#libraries">Libraries</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#executables">Executables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#plugins">Plugins</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ctest">ctest</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#installation">Installation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="examples.html">Examples</a></li>
+</ul>
+
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html">Sobek</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+      
+    <li>Components</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          <a href="_sources/components.txt" rel="nofollow"> View page source</a>
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            
+  <div class="section" id="components">
+<h1>Components<a class="headerlink" href="#components" title="Permalink to this headline">¶</a></h1>
+<p>TODO: Summarize the components briefly here.</p>
+<div class="section" id="project-name">
+<h2>Project Name<a class="headerlink" href="#project-name" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Invoke cmake project() macro.</li>
+<li>Define upper-case project name variable.</li>
+</ul>
+</div>
+<div class="section" id="project-config">
+<h2>Project Config<a class="headerlink" href="#project-config" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Make custom project setting available in a Config.h file.E.g.: Add a cpp define to indicate the project was built with certain optional dependencies, or for certain architectures, or other custom settings.
+- Add a cpp define to indicate the project was built with certain optional dependencies, or for certain architectures, or other custom settings.</li>
+</ul>
+</div>
+<div class="section" id="version-vumber">
+<h2>Version Vumber<a class="headerlink" href="#version-vumber" title="Permalink to this headline">¶</a></h2>
+<ul>
+<li><p class="first">Single point control of project version number.</p>
+</li>
+<li><p class="first">Maintains project Version.h file.</p>
+</li>
+<li><p class="first">Supports maj.min.sub format (eg 2.3.1).</p>
+</li>
+<li><dl class="first docutils">
+<dt>Define CMake and CPP macros for version# based on project name</dt>
+<dd><ul class="first last simple">
+<li>E.g.: OAGWORKS_VERSION_MAJOR, OAGWORKS_VERSION_MINOR</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="doxygen-sphinx">
+<h2>Doxygen/Sphinx<a class="headerlink" href="#doxygen-sphinx" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>If Doxygen is found, sets up Documentation build target.</li>
+<li>Maintains project-specific Doxyfile.</li>
+</ul>
+</div>
+<div class="section" id="platform-specific-controls">
+<h2>Platform-specific Controls<a class="headerlink" href="#platform-specific-controls" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Windows:
+- Puts .exes and .dlls in the same output directory.
+- Allows enumeration of warnings to disable.
+- Adds the /MP compiler option with a cmake variable to control it.
+- VS folder support.
+- Debug postfix support (and other build config postfix).</li>
+<li>Linux</li>
+<li>OSX</li>
+<li>Android is a v2.0 feature.</li>
+<li>iOS is a v2.0 feature.</li>
+</ul>
+</div>
+<div class="section" id="dependencies">
+<h2>Dependencies<a class="headerlink" href="#dependencies" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>The goal is to make it easy to enumerate the required and optional dependencies.</li>
+<li>Convenience macro to specify deps.</li>
+<li>Additional support for our commonly used dependencies (Boost, GDAL, etc.) as needed.
+- E.g.: DirectX requires a cmake variable to specify x64 builds.
+- E.g.: If boost is found, we&#8217;ll set a BOOST_FOUND variable.</li>
+<li>New Find&lt;dep&gt;.cmake files, as needed.</li>
+</ul>
+</div>
+<div class="section" id="libraries">
+<h2>Libraries<a class="headerlink" href="#libraries" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Shared library builds will be supported.</li>
+<li>Static should be supported but this could be bumped back to v2.0 if it&#8217;s too difficult.
+- The goal: For static builds, .exe link needs everything.</li>
+</ul>
+</div>
+<div class="section" id="executables">
+<h2>Executables<a class="headerlink" href="#executables" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Support to build different exe types.
+- E.g.: test, example, app (Windows: include in project label)</li>
+</ul>
+</div>
+<div class="section" id="plugins">
+<h2>Plugins<a class="headerlink" href="#plugins" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Support for building OSG-style plugins.</li>
+</ul>
+</div>
+<div class="section" id="ctest">
+<h2>ctest<a class="headerlink" href="#ctest" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Adds a cmake variable so that building of regression test is optional.</li>
+</ul>
+</div>
+<div class="section" id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Installing the data directory is optional.</li>
+<li>Windows: Installing pdb files is optional.</li>
+<li>Downstream project support (creates &#8220;Find&lt;project&gt;.cmake&#8221; file).</li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="examples.html" class="btn btn-neutral float-right" title="Examples"/>Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="philosophy.html" class="btn btn-neutral" title="Philosophy"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2014, Jeremy Moles.
+    </p>
+  </div>
+
+  <a href="https://github.com/snide/sphinx_rtd_theme">Sphinx theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+</body>
+</html>
