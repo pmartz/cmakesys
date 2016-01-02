@@ -1,4 +1,5 @@
 bld
 build
-src/examples/version/version.h
 doc/.build
+cmsproject/cm-run
+cmsproject/libcmstest/version.h
