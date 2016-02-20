@@ -1,0 +1,15 @@
+prefix=${fp_file_cwd}/../..
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: @CMAKE_PROJECT_NAME@
+Description: @CMAKE_PROJECT_NAME@ release pre-compiled
+Provides: @CMAKE_PROJECT_NAME@
+Requires:
+Version: @PACKAGE_VERSION@
+Libs: @_fpcLibraries@
+Cflags: @_fpcIncludes@
+Arch: noarch
+
+

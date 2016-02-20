@@ -1,0 +1,8 @@
+#!/bin/sh
+
+projdir=/home/pmartz/projects/source/cmsproject
+cmake ${projdir} -G "Unix Makefiles" \
+    -DBUILD_SHARED_LIBS:BOOL=OFF \
+    -DBOOST_ALL_DYN_LINK:BOOL=ON \
+    -DCMAKE_INSTALL_PREFIX:PATH=/home/pmartz/cmsproject-test \
+    -DCMSPROJECT_DOCUMENTATION:BOOL=ON
