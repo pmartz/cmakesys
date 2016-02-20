@@ -2,4 +2,4 @@ bld
 build
 doc/.build
 cmsproject/cm-run
-cmsproject/libcmstest/version.h
+cmsproject/src/libcmsproject/version.h
