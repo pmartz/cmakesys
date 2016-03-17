@@ -193,12 +193,10 @@ macro( _doxygen )
         message( WARNING "_doxygen: _projectNameUpper not set. You must invoke _projectName(...) before _doxygen(...)." )
     endif()
 
-    # Do nothing if building documentation is disabled.
-    if( NOT ${_projectNameUpper}_DOCUMENTATION )
-        return()
+    # Only look for Doxygen is asked to.
+    if( ${_projectNameUpper}_DOCUMENTATION )
+        find_package( Doxygen )
     endif()
-
-    find_package( Doxygen )
 
     if( DOXYGEN_FOUND )
         set( HAVE_DOT "NO" )
