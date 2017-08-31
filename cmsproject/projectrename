@@ -1,0 +1,19 @@
+#!/bin/sh
+
+if [ "$#" -ne "2" ]
+then
+    echo "Supply project name, and project name uppercase."
+    exit
+fi
+# $0 is script name.
+# $1 is new name.
+# $2 is new name uppercase.
+
+find . -type f -name \* -exec sed -i -e "s/mailspy/$1/g" {} \;
+find . -type f -name \* -exec sed -i -e "s/MAILSPY/$2/g" {} \;
+
+if [ -e src/libcmsproject ] 
+then
+    mv src/libcmsproject src/lib$1
+fi
+

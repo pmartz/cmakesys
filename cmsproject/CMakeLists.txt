@@ -90,7 +90,7 @@ set( _dependencyLibraries
 
 # If we're not building shared libs, define project static build flag.
 if( NOT BUILD_SHARED_LIBS )
-    add_definitions( D${_projectNameUpper}_STATIC )
+    add_definitions( -D${_projectNameUpper}_STATIC )
 endif()
 
 
